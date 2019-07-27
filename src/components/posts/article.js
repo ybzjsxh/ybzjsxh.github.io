@@ -3,7 +3,8 @@ import marked from 'marked'
 import hljs from 'highlight.js'
 import { Card, BackTop, Tag } from 'antd';
 import { getColor, setAnchor } from '../../config/methods';
-import '../../highlight.min.css';
+import 'highlight.js/styles/atom-one-light.css'
+// import '../../highlight.min.css';
 
 class Article extends Component {
 	componentWillMount() {
