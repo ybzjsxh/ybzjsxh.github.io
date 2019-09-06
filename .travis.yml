@@ -15,6 +15,9 @@ cache:
 script:
   - yarn build
 
+notifications:
+  email: false
+
 deploy:
   provider: pages
   skip_cleanup: true

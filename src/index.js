@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Routes from './config/routes';
-import '../node_modules/antd/dist/antd.css'
+import '../node_modules/antd/dist/antd.css';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<Routes />, document.getElementById('root'));
